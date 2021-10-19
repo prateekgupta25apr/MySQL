@@ -2,7 +2,10 @@ create schema PrimaryAndForeignKey;
 
 use PrimaryAndForeignKey;
 
-create table parent_table(id int primary key,column1 varchar(50));
+create table parent_table(
+id int primary key,
+column1 varchar(50)
+);
 
 create table child_table(
 id int, 
